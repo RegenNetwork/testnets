@@ -26,7 +26,7 @@
     - Instructions to submit the PR:
         - Clone regen-network/testnets repo,
         ```sh
-        $ git clone https://github.com/regen-network/testnets
+        $ git clone https://github.com/RegenNetwork/testnets
         $ cd testnets
         $ git pull origin master
         $ cd aplikigo-1/tasks/phase-1/1-celebrate

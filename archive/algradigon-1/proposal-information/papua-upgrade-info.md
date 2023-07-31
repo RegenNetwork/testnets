@@ -1,6 +1,6 @@
 # Papua software upgrade details and voting instructions.
 
-The second software proposal is titled "Papua Upgrade". This upgrade will be applied on 29th January at 23:00UTC. This proposal proposes to switch the working binary to v0.5.2. This release can be found here:- https://github.com/regen-network/regen-ledger/releases/tag/v0.5.2
+The second software proposal is titled "Papua Upgrade". This upgrade will be applied on 29th January at 23:00UTC. This proposal proposes to switch the working binary to v0.5.2. This release can be found here:- https://github.com/RegenNetwork/regen-ledger/releases/tag/v0.5.2
 
 In this release, faucet account is credited with some newly minted tokens along with correct denom of said tokens.
 

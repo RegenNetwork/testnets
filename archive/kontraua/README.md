@@ -39,7 +39,7 @@ $ go version # this should output `go version go1.13.3 ...`
 ```
 $ mkdir -p $GOPATH/src/github.com/regen
 $ cd $GOPATH/src/github.com/regen
-$ git clone https://github.com/regen-network/wasmd && cd wasmd
+$ git clone https://github.com/RegenNetwork/wasmd && cd wasmd
 $ git checkout v0.7.1
 $ make install
 ```
@@ -83,7 +83,7 @@ If all goes well, you will see the following message:
 Genesis transaction written to "/home/user/.xrnd/config/gentx/gentx-f8038a89034kl987ebd493b85a125624d5f4770.json"
 ```
 #### Submit Gentx
-Submit your gentx in a PR [here](https://github.com/regen-network/testnets)
+Submit your gentx in a PR [here](https://github.com/RegenNetwork/testnets)
 
 - Fork the testnets repo to your github account 
 
@@ -96,7 +96,7 @@ git clone https://github.com/<your-github-username>/testnets
 - Copy the generated gentx json file to <repo_path>/kontraua/gentxs/<your_gentx_file.json>
 
 - Commit and push to your repo
-- Create a PR into https://github.com/regen-network/testnets
+- Create a PR into https://github.com/RegenNetwork/testnets
 
 
 ## Start your validator

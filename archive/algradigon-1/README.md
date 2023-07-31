@@ -1,6 +1,6 @@
 # Regen Ledger Testnets
 
-Testnets for [Regen Ledger](https://github.com/regen-network/regen-ledger)
+Testnets for [Regen Ledger](https://github.com/RegenNetwork/regen-ledger)
 
 
 
@@ -34,18 +34,18 @@ If all goes well, you will see the following message:
 Genesis transaction written to "/home/user/.xrnd/config/gentx/gentx-f8038a89034kl987ebd493b85a125624d5f4770.json"
 ```
 #### Submit Gentx (optional)
-Submit your gentx in a PR [here](https://github.com/regen-network/testnets)
+Submit your gentx in a PR [here](https://github.com/RegenNetwork/testnets)
 
 - Clone the repo using
 
 ```sh
-git clone https://github.com/regen-network/testnets
+git clone https://github.com/RegenNetwork/testnets
 ```
 
 - Copy the generated gentx json file to <repo_path>/algradigon-1/gentxs/<your_gentx_file.json>
 
 - Commit and push to your repo
-- Create a PR into https://github.com/regen-network/testnets
+- Create a PR into https://github.com/RegenNetwork/testnets
 
 ## How to Run a Testnet Validator
 
@@ -72,11 +72,11 @@ $ ./go_install.sh -v 1.12.5
 ```
 $ mkdir -p $GOPATH/src/github.com/regen
 $ cd $GOPATH/src/github.com/regen
-$ git clone -b v0.5.0 https://github.com/regen-network/regen-ledger
+$ git clone -b v0.5.0 https://github.com/RegenNetwork/regen-ledger
 $ cd regen-ledger
 $ make install
 ```
-Find the latest release tags [here](https://github.com/regen-network/regen-ledger/releases). To verify if installation was successful:
+Find the latest release tags [here](https://github.com/RegenNetwork/regen-ledger/releases). To verify if installation was successful:
 ```
 $ xrnd version --long
 $ xrncli version --long

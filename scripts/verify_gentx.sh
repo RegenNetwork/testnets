@@ -32,7 +32,7 @@ else
 
     # echo "...........Init Regen.............."
 
-    # git clone https://github.com/regen-network/regen-ledger
+    # git clone https://github.com/RegenNetwork/regen-ledger
     # cd regen-ledger
     # git checkout v0.6.0
     # make build

@@ -39,8 +39,8 @@ CHAIN_ID=regen-redwood-1
 PERSISTENT_PEERS="a5528d8f5fabd3d50e91e8d6a97e355403c5b842@128.199.249.31:26656"
 
 echo "install regen-ledger"
-git clone https://github.com/regen-network/regen-ledger $GOPATH/src/github.com/regen-network/regen-ledger
-cd $GOPATH/src/github.com/regen-network/regen-ledger
+git clone https://github.com/RegenNetwork/regen-ledger $GOPATH/src/github.com/RegenNetwork/regen-ledger
+cd $GOPATH/src/github.com/RegenNetwork/regen-ledger
 git fetch
 git checkout v1.0.0
 make install

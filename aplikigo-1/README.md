@@ -3,7 +3,7 @@
 ## Quick Links
 Genesis: [genesis.json](https://raw.githubusercontent.com/regen-network/testnets/master/aplikigo-1/genesis.json)
 
-Git tag: [v0.6.0](https://github.com/regen-network/regen-ledger/releases/tag/v0.6.0)
+Git tag: [v0.6.0](https://github.com/RegenNetwork/regen-ledger/releases/tag/v0.6.0)
 
 Block explorer: [aplikigo.regen.aneka.io](https://aplikigo.regen.aneka.io)
 
@@ -42,7 +42,7 @@ $ go version # this should output `go version go1.15.5 ...`
 ```sh
 $ mkdir -p $GOPATH/src/github.com/regen
 $ cd $GOPATH/src/github.com/regen
-$ git clone https://github.com/regen-network/regen-ledger.git && cd regen-ledger
+$ git clone https://github.com/RegenNetwork/regen-ledger.git && cd regen-ledger
 $ git checkout v0.6.0
 $ make install
 ```
@@ -68,12 +68,12 @@ build_deps:
 
 #### Option 2: Download binary
 
-1. Download the binary for your platform: [releases](https://github.com/regen-network/regen-ledger/releases/tag/v0.6.0).
+1. Download the binary for your platform: [releases](https://github.com/RegenNetwork/regen-ledger/releases/tag/v0.6.0).
 2. Copy it to a location in your PATH, i.e: `/usr/local/bin` or `$HOME/bin`.
 
 i.e:
 ```sh
-$ wget https://github.com/regen-network/regen-ledger/releases/download/v0.6.0/regen_0.6.0_linux_arm64.tar.gz
+$ wget https://github.com/RegenNetwork/regen-ledger/releases/download/v0.6.0/regen_0.6.0_linux_arm64.tar.gz
 $ sudo tar -C /usr/local/bin -zxvf regen_0.6.0_linux_arm64.tar.gz
 ```
 
@@ -103,7 +103,7 @@ If all goes well, you will see the following message:
 Genesis transaction written to "/home/user/.regen/config/gentx/gentx-f8038a89034kl987ebd493b85a125624d5f4770.json"
 ```
 #### Submit Gentx
-Submit your gentx in a PR [here](https://github.com/regen-network/testnets)
+Submit your gentx in a PR [here](https://github.com/RegenNetwork/testnets)
 
 - Fork the testnets repo to your github account (You can fork any repo by clicking the fork button in the upper right hand corner of a repo page.)
 
@@ -121,7 +121,7 @@ git add <repo_path>/aplikigo-1/gentxs/<your_gentx_file.json>
 git commit -m 'add gentx'
 git push origin master
 ```
-- Create a PR into https://github.com/regen-network/testnets
+- Create a PR into https://github.com/RegenNetwork/testnets
 
 
 ## Start your validator

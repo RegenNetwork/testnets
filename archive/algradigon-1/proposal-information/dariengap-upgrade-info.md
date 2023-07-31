@@ -1,6 +1,6 @@
 # Darien Gap software upgrade details and voting instructions.
 
-The second software proposal is titled "Darien Gap Upgrade". This upgrade will be applied on 7th Feb, 2020 at 09:00UTC. This proposal proposes to switch the working binary to v0.5.3. This release can be found here:- https://github.com/regen-network/regen-ledger/releases/tag/v0.5.3
+The second software proposal is titled "Darien Gap Upgrade". This upgrade will be applied on 7th Feb, 2020 at 09:00UTC. This proposal proposes to switch the working binary to v0.5.3. This release can be found here:- https://github.com/RegenNetwork/regen-ledger/releases/tag/v0.5.3
 
 To query this proposal using the client, you can use this command on your validator or proxy node:
 ```

@@ -9,11 +9,11 @@ You have 2 options here.
 
 #### Step-1:
 Download the Papua release from here 
-[regen-ledger-v0.5.2-linux-amd64.tar.xz](https://github.com/regen-network/regen-ledger/releases/tag/v0.5.2)
+[regen-ledger-v0.5.2-linux-amd64.tar.xz](https://github.com/RegenNetwork/regen-ledger/releases/tag/v0.5.2)
 
 Linux:
 ```
-wget https://github.com/regen-network/regen-ledger/releases/download/v0.5.2/regen-ledger-v0.5.2-linux-amd64.tar.xz
+wget https://github.com/RegenNetwork/regen-ledger/releases/download/v0.5.2/regen-ledger-v0.5.2-linux-amd64.tar.xz
 
 tar -xzvf regen-ledger-v0.5.2-linux-amd64.tar.xz
 ```
@@ -21,7 +21,7 @@ tar -xzvf regen-ledger-v0.5.2-linux-amd64.tar.xz
 
 (OR) build from source
 ```
-go get github.com/regen-network/regen-ledger
+go get github.com/RegenNetwork/regen-ledger
 cd <GOPATH>/regen-network/regen-ledger
 
 git fetch
@@ -100,7 +100,7 @@ mkdir -p genesis (optional)
 #### Use prebuild copy
 
 ```
-curl -L -o $DAEMON_HOME/cosmosd https://github.com/regen-network/cosmosd/releases/download/0.2.0/cosmosd
+curl -L -o $DAEMON_HOME/cosmosd https://github.com/RegenNetwork/cosmosd/releases/download/0.2.0/cosmosd
 
 chmod +x $DAEMON_HOME/cosmosd
 ```
@@ -108,7 +108,7 @@ chmod +x $DAEMON_HOME/cosmosd
 #### or build from source using:
 
 ```
-git clone git@github.com/regen-network/cosmosd.git 
+git clone git@github.com/RegenNetwork/cosmosd.git 
 cd cosmosd
 go build
 mv cosmosd $DAEMON_HOME/
@@ -123,7 +123,7 @@ chmod +x $DAEMON_HOME/cosmosd
 cd $DAEMON_HOME/upgrade_manager
 mkdir -p upgrades/patagonia/bin
 cd upgrades/patagonia
-curl -L -o bin/xrnd https://github.com/regen-network/regen-ledger/releases/download/v0.5.1/xrnd-v0.5.1
+curl -L -o bin/xrnd https://github.com/RegenNetwork/regen-ledger/releases/download/v0.5.1/xrnd-v0.5.1
 chmod +x bin/xrnd
 ./bin/xrnd version # this should print 0.5.1
 cd ../..
@@ -213,7 +213,7 @@ cd $DAEMON_HOME/upgrade_manager
 mkdir -p upgrades/papua
 cd upgrades/papua
 
-wget -c https://github.com/regen-network/regen-ledger/releases/download/v0.5.2/regen-ledger-v0.5.2-linux-amd64.tar.xz -O - | tar -xz -C $DAEMON_HOME/upgrade_manager/upgrades/papua/ bin
+wget -c https://github.com/RegenNetwork/regen-ledger/releases/download/v0.5.2/regen-ledger-v0.5.2-linux-amd64.tar.xz -O - | tar -xz -C $DAEMON_HOME/upgrade_manager/upgrades/papua/ bin
 
 chmod +x bin/xrnd
 ./bin/xrnd version # this should print 0.5.2

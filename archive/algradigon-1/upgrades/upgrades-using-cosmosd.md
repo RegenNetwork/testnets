@@ -1,4 +1,4 @@
-# Instructions to manage Regen-network upgrades using [cosmosd](https://github.com/regen-network/cosmosd)
+# Instructions to manage Regen-network upgrades using [cosmosd](https://github.com/RegenNetwork/cosmosd)
 
 
 ## Setup the required env
@@ -24,7 +24,7 @@ mkdir -p genesis
 #### Use prebuild copy
 
 ```
-curl -L -o $DAEMON_HOME/cosmosd https://github.com/regen-network/cosmosd/releases/download/0.2.0/cosmosd
+curl -L -o $DAEMON_HOME/cosmosd https://github.com/RegenNetwork/cosmosd/releases/download/0.2.0/cosmosd
 
 chmod +x $DAEMON_HOME/cosmosd
 ```
@@ -32,7 +32,7 @@ chmod +x $DAEMON_HOME/cosmosd
 #### or build from source using:
 
 ```
-git clone git@github.com/regen-network/cosmosd.git 
+git clone git@github.com/RegenNetwork/cosmosd.git 
 cd cosmosd
 go build
 mv cosmosd $DAEMON_HOME/
@@ -44,7 +44,7 @@ chmod +x $DAEMON_HOME/cosmosd
 ```
 cd $DAEMON_HOME/upgrade_manager
 
-wget -c https://github.com/regen-network/regen-ledger/releases/download/v0.5.0/regen-ledger-v0.5.0-linux-amd64.tar.xz -O - | tar -xz -C $DAEMON_HOME/upgrade_manager/genesis/ ./bin
+wget -c https://github.com/RegenNetwork/regen-ledger/releases/download/v0.5.0/regen-ledger-v0.5.0-linux-amd64.tar.xz -O - | tar -xz -C $DAEMON_HOME/upgrade_manager/genesis/ ./bin
 
 chmod +x genesis/bin/xrnd
 ./genesis/bin/xrnd version # this should print 0.5.0
@@ -64,7 +64,7 @@ chmod +x genesis/bin/xrnd
 cd $DAEMON_HOME/upgrade_manager
 mkdir -p upgrades/patagonia/bin
 cd upgrades/patagonia
-curl -L -o bin/xrnd https://github.com/regen-network/regen-ledger/releases/download/v0.5.1/xrnd-v0.5.1
+curl -L -o bin/xrnd https://github.com/RegenNetwork/regen-ledger/releases/download/v0.5.1/xrnd-v0.5.1
 chmod +x bin/xrnd
 ./bin/xrnd version # this should print 0.5.1
 cd ../..
@@ -72,7 +72,7 @@ cd ../..
 
 ### or build from source using:
 ```
-cd $GOPATH/src/github.com/regen-network/regen-ledger
+cd $GOPATH/src/github.com/RegenNetwork/regen-ledger
 git fetch
 git checkout v0.5.1
 make build

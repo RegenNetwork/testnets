@@ -9,7 +9,7 @@ IMPORTANT: New binaries should be executed after the upgrade time i.e., 2020-03-
 Download the new binary and replace the old binary with it.
 
 ```sh
-$ wget https://github.com/regen-network/wasmd/releases/download/v0.7.2/regen--v0.7.2-linux-amd64.tar.xz
+$ wget https://github.com/RegenNetwork/wasmd/releases/download/v0.7.2/regen--v0.7.2-linux-amd64.tar.xz
 
 $ tar -xvf regen--v0.7.2-linux-amd64.tar.xz
 
@@ -42,7 +42,7 @@ $ xrnd start
 ```
 $ mkdir -p $GOPATH/src/github.com/regen
 $ cd $GOPATH/src/github.com/regen
-$ git clone https://github.com/regen-network/wasmd && cd wasmd
+$ git clone https://github.com/RegenNetwork/wasmd && cd wasmd
 $ git checkout v0.7.2
 $ make install
 ```

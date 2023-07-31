@@ -39,8 +39,8 @@ CHAIN_ID=regen-devnet-5
 PERSISTENT_PEERS="b2679a74d6bd9f89a3c294c447d6930293255e6b@18.220.101.192:26656"
 
 echo "install regen-ledger"
-git clone https://github.com/regen-network/regen-ledger $GOPATH/src/github.com/regen-network/regen-ledger
-cd $GOPATH/src/github.com/regen-network/regen-ledger
+git clone https://github.com/RegenNetwork/regen-ledger $GOPATH/src/github.com/RegenNetwork/regen-ledger
+cd $GOPATH/src/github.com/RegenNetwork/regen-ledger
 git fetch
 git checkout v1.0.0-rc0
 EXPERIMENTAL=true make install

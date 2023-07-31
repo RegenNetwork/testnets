@@ -1,6 +1,6 @@
 # Regen Ledger Testnets
 
-Testnets for [Regen Ledger](https://github.com/regen-network/regen-ledger)
+Testnets for [Regen Ledger](https://github.com/RegenNetwork/regen-ledger)
 
 ## Active Testnets
 
@@ -19,7 +19,7 @@ sudo service regen stop
 ```
 2. Run the latest setup script
 ```sh
-git clone https://github.com/regen-network/testnets
+git clone https://github.com/RegenNetwork/testnets
 cd testnets
 git pull
 
@@ -72,7 +72,7 @@ sudo service regen stop
 ```
 2. Run the latest setup script
 ```sh
-git clone https://github.com/regen-network/testnets
+git clone https://github.com/RegenNetwork/testnets
 cd testnets
 git pull
 
@@ -124,7 +124,7 @@ We are also supporting the [BigBang-1 Stargate testnet](https://github.com/cosmo
 
 #### [Click here to join the testnet](./kontraua/README.md)
 
-### [`Algradigon-1`](https://github.com/regen-network/testnets/tree/modifications/archive/algradigon-1)
+### [`Algradigon-1`](https://github.com/RegenNetwork/testnets/tree/modifications/archive/algradigon-1)
 
 `Algradigon-1`, an incentivized testnet was launched on 23rd Jan at 17:00UTC with 38 validators signing on the genesis block. The validator set was increased to a total of 49 validators and total of 4 upgrades were executed in a span of two weeks by 7th Feb.
 
@@ -138,19 +138,19 @@ The incentive program for the testnet was ended on 12th Feb 2020 at 12:00UTC
 * Postmortem report of the testnet: https://medium.com/regen-network/postmortem-of-algradigon-1-eb2dc7652850
 * Testnet results: https://medium.com/@gregorylandua/algradigon-1-testnet-results-d32d8cfca615
 
-### [`congo-1`](https://github.com/regen-network/testnets/tree/modifications/archive/congo-1)
+### [`congo-1`](https://github.com/RegenNetwork/testnets/tree/modifications/archive/congo-1)
 
 `congo-1` was the first community-driven testnet between 7th November 2019 and 17th January 2020, at which point it was abandoned in order to prepare for the next incentivised testnet.
 
-### [`regen-test-1001`](https://github.com/regen-network/testnets/tree/modifications/archive/regen-test-1001)
+### [`regen-test-1001`](https://github.com/RegenNetwork/testnets/tree/modifications/archive/regen-test-1001)
 
 `regen-test-1001` ran between August and October 2019. It is now defunct, having discovered a cosmos-sdk bug in governance-driven parameter updates logic.
 
-### [`regen-test-1000`](https://github.com/regen-network/testnets/tree/modifications/archive/regen-test-1000)
+### [`regen-test-1000`](https://github.com/RegenNetwork/testnets/tree/modifications/archive/regen-test-1000)
 
 `regen-test-1000` hit some weird consensus error on app state at block 2.
 
-#### [`xrn-test-3`](https://github.com/regen-network/testnets/tree/modifications/archive/xrn-test-3)
+#### [`xrn-test-3`](https://github.com/RegenNetwork/testnets/tree/modifications/archive/xrn-test-3)
 
 Testnet `xrn-test-3` started producing blocks at `2019-03-29T19:44:44.571815638Z` and is now defunct.
 
@@ -161,11 +161,11 @@ Testnet `xrn-test-3` started producing blocks at `2019-03-29T19:44:44.571815638Z
 xrncli init --chain-id xrn-test-2 --node tcp://xrn-us-east-1.regen.network:26657
 ```
 
-#### [`xrn-test-2`](https://github.com/regen-network/testnets/tree/modifications/archive/xrn-test-2)
+#### [`xrn-test-2`](https://github.com/RegenNetwork/testnets/tree/modifications/archive/xrn-test-2)
 
 Deployed at `2018-12-19T20:40:06.463846Z`.
 
-#### [`xrn-1`](https://github.com/regen-network/testnets/tree/modifications/archive/xrn-1)
+#### [`xrn-1`](https://github.com/RegenNetwork/testnets/tree/modifications/archive/xrn-1)
 
 The initial Regen Ledger testnet `xrn-1` was deployed on 2018-12-19.
 
@@ -173,14 +173,14 @@ The initial Regen Ledger testnet `xrn-1` was deployed on 2018-12-19.
 ## KYC Utils
 
 ### Generate Validator Keys
-Linking a validator address to your identity is how we ensure the right validator is rewarded for the hard work of participating in our incentivized testnets.  Please back up your keys and maintain the same keys thorughout testnet operations if possible.  If you have a key management issue, please use the same Moniker in generation of new keys and notify the team.
+Linking a validator address to your identity is how we ensure the right validator is rewarded for the hard work of participating in our incentivized testnets.  Please back up your keys and maintain the same keys throughout testnet operations if possible.  If you have a key management issue, please use the same Moniker in generation of new keys and notify the team.
 
 The same validator keys can be used for different testnets, and even for main net (as long as you practice good key management). 
 
 ### Handy Script
 Here are instructions for generating keys for regen ledger. This is well-tested on Ubuntu 18.04, if you are using different arch and running into issues, please use manual key generation instructions below
 ```sh
-git clone https://github.com/regen-network/testnets
+git clone https://github.com/RegenNetwork/testnets
 cd testnets
 git pull
 
@@ -209,7 +209,7 @@ Step-1: Install Go 1.15.x (Optional)
 
 Step-2: Install Regen (from source)
 ```sh
-$ git clone https://github.com/regen-network/regen-ledger
+$ git clone https://github.com/RegenNetwork/regen-ledger
 $ cd regen-ledger
 $ git checkout v0.6.0-alpha6
 $ make install

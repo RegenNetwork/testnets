@@ -183,4 +183,4 @@ xrncli query wasm  contract-state smart $CONTRACT "$BALANCE_QUERY" --node http:/
 - Network explorer: https://explorer.regen.vitwit.com
 - Testnet plan: https://medium.com/regen-network/cosmwasm-kontra%C5%ADa-testnet-plan-2756490ccdf4
 - Regen Network DVD Channel: https://t.me/joinchat/FJGNSxOpjJcgrUGwAAOKUg
-- Testnet instructions https://github.com/regen-network/testnets/blob/master/kontraua/README.md
+- Testnet instructions https://github.com/RegenNetwork/testnets/blob/master/kontraua/README.md

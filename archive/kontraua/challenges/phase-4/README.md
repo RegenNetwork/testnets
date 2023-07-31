@@ -182,7 +182,7 @@ xrncli query account $CONTRACT
 
 1. Upload escrow code and Copy the TX HASH
 2. Instantiate contract with validator label and copy TX Hash, Contract address
-3. Fork testnets repo and clone: github.com/regen-network/testnets
+3. Fork testnets repo and clone: github.com/RegenNetwork/testnets
 4. cd testnets/kontraua/challenges/phase-4/
 5. cp sample.json <your_validator_moniker>.json
 6. Edit the details
@@ -208,4 +208,4 @@ xrncli query account $CONTRACT
 - Network explorer: https://explorer.regen.vitwit.com
 - Testnet plan: https://medium.com/regen-network/cosmwasm-kontra%C5%ADa-testnet-plan-2756490ccdf4
 - Regen Network DVD Channel: https://t.me/joinchat/FJGNSxOpjJcgrUGwAAOKUg
-- Testnet instructions https://github.com/regen-network/testnets/blob/master/kontraua/README.md
+- Testnet instructions https://github.com/RegenNetwork/testnets/blob/master/kontraua/README.md

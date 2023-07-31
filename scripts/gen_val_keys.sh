@@ -30,7 +30,7 @@ fi
 echo "-- Clear old regen data and install Regen-ledger and setup the node --"
 
 rm -rf ~/.regen
-rm -rf $GOPATH/src/github.com/regen-network/regen-ledger
+rm -rf $GOPATH/src/github.com/RegenNetwork/regen-ledger
 
 YOUR_KEY_NAME=$1
 DAEMON=regen
@@ -39,8 +39,8 @@ CHAIN_ID=regen-testnet
 PERSISTENT_PEERS="f864b879f59141d0ad3828ee17ea0644bdd10e9b@18.220.101.192:26656"
 
 echo "install regen-ledger:v0.6.0-alpha2"
-git clone https://github.com/regen-network/regen-ledger $GOPATH/src/github.com/regen-network/regen-ledger
-cd $GOPATH/src/github.com/regen-network/regen-ledger
+git clone https://github.com/RegenNetwork/regen-ledger $GOPATH/src/github.com/RegenNetwork/regen-ledger
+cd $GOPATH/src/github.com/RegenNetwork/regen-ledger
 git checkout v0.6.0-alpha2
 make install
 

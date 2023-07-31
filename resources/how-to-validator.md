@@ -23,11 +23,11 @@ $ ./go_install.sh -v 1.12.5
 ```
 $ mkdir -p $GOPATH/src/github.com/regen
 $ cd $GOPATH/src/github.com/regen
-$ git clone -b v0.5.0 https://github.com/regen-network/regen-ledger
+$ git clone -b v0.5.0 https://github.com/RegenNetwork/regen-ledger
 $ cd regen-ledger
 $ make install
 ```
-Find the latest release tags [here](https://github.com/regen-network/regen-ledger/releases). To verify if installation was successful:
+Find the latest release tags [here](https://github.com/RegenNetwork/regen-ledger/releases). To verify if installation was successful:
 ```
 $ xrnd version --long
 $ xrncli version --long
